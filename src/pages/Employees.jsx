@@ -19,7 +19,7 @@ import { employeesData, employeesGrid } from "../data/dummy";
 
 const Employees = () => {
   return (
-    <div className="bg-white m-2 md:m-10 p-2 md:p-10 rounded-3xl">
+    <div className="bg-white m-2 md:m-10 p-2 md:p-10 rounded-3xl dark:bg-secondary-dark-bg">
       <Header category="Page" title="Employees" />
       <GridComponent
         id="gridcomp"

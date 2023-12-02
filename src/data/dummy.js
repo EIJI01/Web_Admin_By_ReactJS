@@ -190,7 +190,7 @@ export const barPrimaryXAxis = {
 export const barPrimaryYAxis = {
   majorGridLines: { width: 0 },
   majorTickLines: { width: 0 },
-  lineStyle: { width: 0 },
+  lineStyle: { width: 1 },
   labelStyle: { color: "transparent" },
 };
 const areaChartData = [
@@ -625,24 +625,28 @@ export const chatData = [
     message: "Roman Joined the Team!",
     desc: "Congratulate him",
     time: "9:08 AM",
+    dotColor: "rgb(0, 194, 146)",
   },
   {
     image: avatar3,
     message: "New message received",
     desc: "Salma sent you new message",
     time: "11:56 AM",
+    dotColor: "rgb(153, 171, 180)",
   },
   {
     image: avatar4,
     message: "New Payment received",
     desc: "Check your earnings",
     time: "4:39 AM",
+    dotColor: "rgb(153, 171, 180)",
   },
   {
     image: avatar,
     message: "Jolly completed tasks",
     desc: "Assign her new tasks",
     time: "1:12 AM",
+    dotColor: "rgb(0, 194, 146)",
   },
 ];
 
